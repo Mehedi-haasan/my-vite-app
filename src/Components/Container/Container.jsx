@@ -76,7 +76,7 @@ const Container = ({ children, isLoggedOut }) => {
             </div>
 
             {/* Main Content */}
-            <div className='flex-1 bg-gray-100 overflow-y-auto pl-6 pt-6'>
+            <div className='flex-1 bg-gray-100 overflow-y-auto pl-2 pt-2'>
                 {children}
             </div>
         </div>

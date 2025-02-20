@@ -7,6 +7,7 @@ import Login from "./Components/Auth/Login";
 import Registration from "./Components/Auth/Registration";
 import ProductCreate from "./Components/ProductCreate/ProductCreate";
 import Product from "./Components/Product/Product";
+import ProductCategory from "./Components/ProductCategory/ProductCategory";
 
 
 
@@ -18,6 +19,7 @@ const DashboardContainer = ({ isLoggedOut }) => {
         <Route path="/registration" element={<Registration />} />
         <Route path="/create" element={<ProductCreate />} />
         <Route path="/product" element={<Product />} />
+        <Route path="/category" element={<ProductCategory />} />
       </Routes>
     </Container>
   )
